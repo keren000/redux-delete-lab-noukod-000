@@ -1,6 +1,9 @@
 import React, { Component } from 'react'
 import BandInput from './BandInput';
+<<<<<<< HEAD
 import Band from './Band'
+=======
+>>>>>>> 8cc7b707e6b573e343b39c58485eef6a082c50f8
 import { connect } from 'react-redux'
 
 class BandsContainer extends Component {
@@ -12,7 +15,10 @@ class BandsContainer extends Component {
     return (
       <div>
         <BandInput addBand={this.props.addBand}/>
+<<<<<<< HEAD
         <ul>{this.renderBands()}</ul>
+=======
+>>>>>>> 8cc7b707e6b573e343b39c58485eef6a082c50f8
       </div>
     )
   }
